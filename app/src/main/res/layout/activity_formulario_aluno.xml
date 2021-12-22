@@ -15,8 +15,9 @@
             android:layout_height="wrap_content"
             android:layout_margin="8dp"
             android:hint="@string/nome"
-            android:inputType="textCapWords"
             android:importantForAutofill="no"
+            android:inputType="textCapWords"
+            android:minHeight="48dp"
             tools:targetApi="o" />
 
         <EditText
@@ -25,8 +26,9 @@
             android:layout_height="wrap_content"
             android:layout_margin="8dp"
             android:hint="@string/telefone"
-            android:inputType="phone"
             android:importantForAutofill="no"
+            android:inputType="phone"
+            android:minHeight="48dp"
             tools:targetApi="o" />
 
         <EditText
@@ -35,8 +37,9 @@
             android:layout_height="wrap_content"
             android:layout_margin="8dp"
             android:hint="@string/email"
-            android:inputType="textEmailAddress"
             android:importantForAutofill="no"
+            android:inputType="textEmailAddress"
+            android:minHeight="48dp"
             tools:targetApi="o" />
 
     </LinearLayout>
